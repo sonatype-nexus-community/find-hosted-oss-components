@@ -44,12 +44,15 @@ python3 -m venv venv
 Do this in your terminal or by using your favorite IDE
 #### Windows
 ```
-my-venv\Scripts\activate.bat
+venv\Scripts\activate.bat
 ```
 
 #### MacOs *NIX Linux
 ```bash
-source my-venv/bin/activate
+source venv/bin/activate
+```
+```fish
+source venv/bin/activate.fish
 ```
 
 ### Step 4: Install dependencies
