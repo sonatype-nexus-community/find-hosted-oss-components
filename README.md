@@ -71,9 +71,11 @@ To run the script simply type - results will be piped to the file specified.
 
 ### Step 6: Run hashbrowns with the generated file
 
+* The application ID must exist in the IQ server before running the following.
+
 ```python
 cd <hashbrowns directory>
-./hashbrowns fry --application att-hashes  --token "Nexus!23"  --server-url "http://localhost:8070" --user "admin" --stage stage-release --path <path>/hashbrowns-order.txt
+./hashbrowns fry --application hosted-nxrm  --token "Nexus!23"  --server-url "http://localhost:8070" --user "admin" --stage stage-release --path <path>/hashbrowns-order.txt
  ````
 
 ### Step 7: Review the report in Nexus IQ Server
