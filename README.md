@@ -3,8 +3,8 @@ This repository contains a script to check if you have open source (components) 
 The generated file can then be used to evaluate the components using the Nexus Platform.
 
 ## Requirements
-* Python3: `brew install python`
-* GoLang: https://medium.com/@jimkang/install-go-on-mac-with-homebrew-5fa421fc55f5
+* Python3
+* GoLang
 * NXRM3 OSS or PRO
 * Local build of [Sonatype Hashbrowns](sonatype-nexus-community/hashbrowns). \
   Hashbrowns is a utility for scanning sha1 sums with Sonatype's Nexus IQ Server.
