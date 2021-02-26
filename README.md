@@ -3,7 +3,8 @@ This repository contains a script to check if you have open source (components) 
 The generated file can then be used to evaluate the components using the Nexus Platform.
 
 ## Requirements
-* Python3
+* Python3: `brew install python`
+* GoLang: https://medium.com/@jimkang/install-go-on-mac-with-homebrew-5fa421fc55f5
 * NXRM3 OSS or PRO
 * Local build of [Sonatype Hashbrowns](sonatype-nexus-community/hashbrowns). \
   Hashbrowns is a utility for scanning sha1 sums with Sonatype's Nexus IQ Server.
@@ -19,6 +20,13 @@ git clone https://github.com/sonatype-nexus-community/hashbrowns.git
 cd hashbrowns
 make
 ```
+
+If `make` causes this error:
+```
+xcrun error: invalid active developer path...
+missing xcrun at: ...
+```
+Run: `xcode-select --install`
 
 ### Step 1: Customise values in `hashbrowns-order.py`
 You'll need to modify the script to include 
@@ -48,6 +56,9 @@ source my-venv/bin/activate
 ```python
 pip install -r requirements.txt
 ```
+
+If error make sure pip is updated: `pip install --upgrade pip`
+
 
 ### Step 5: Run script
 To run the script simply type - results will be piped to the file specified.
