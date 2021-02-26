@@ -20,7 +20,7 @@ cd hashbrowns
 make
 ```
 
-### Step 1: Customise values in `hasbrowns-order.py`
+### Step 1: Customise values in `hashbrowns-order.py`
 You'll need to modify the script to include 
 1. Auth creds or tokens from your NXRM. (`USER` and `TOKEN`)
 1. URL to your Nexus (`REPO_HOSTNAME`)
