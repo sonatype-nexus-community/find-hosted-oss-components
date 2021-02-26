@@ -66,7 +66,7 @@ If error make sure pip is updated: `pip install --upgrade pip`
 ### Step 5: Run script
 To run the script simply type - results will be piped to the file specified.
 ```python
- python3 hasbrowns-order.py > hashbrowns-order.txt
+ python3 ./hasbrowns-order.py > hashbrowns-order.txt
  ````
 
 ### Step 6: Run hashbrowns with the generated file
