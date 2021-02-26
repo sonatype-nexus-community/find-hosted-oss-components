@@ -13,7 +13,7 @@ If you run into this contact your Sonatype CS for help
 
 ## Instructions
 
-### Step .5: Download and build Sonatype Hashbrowns from source - https://github.com/sonatype-nexus-community/hashbrowns
+### Download and build Sonatype Hashbrowns from source - https://github.com/sonatype-nexus-community/hashbrowns
 ```
 git clone https://github.com/sonatype-nexus-community/hashbrowns.git
 cd hashbrowns
