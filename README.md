@@ -66,13 +66,13 @@ If error make sure pip is updated: `pip install --upgrade pip`
 ### Step 5: Run script
 To run the script simply type - results will be piped to the file specified.
 ```python
- python3 ./hasbrowns-order.py > hashbrowns-order.txt
+ python3 ./hashbrowns-order.py > hashbrowns-order.txt
  ````
 
 ### Step 6: Run hashbrowns with the generated file
 
 ```python
-cd <hasbrowns directory>
+cd <hashbrowns directory>
 ./hashbrowns fry --application att-hashes  --token "Nexus!23"  --server-url "http://localhost:8070" --user "admin" --stage stage-release --path <path>/hashbrowns-order.txt
  ````
 
