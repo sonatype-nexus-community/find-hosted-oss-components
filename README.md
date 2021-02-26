@@ -30,7 +30,7 @@ You'll find examples of all in the script.
 
 ### Step 2: Create new virtual environment
 ```python
-python3 -m venv my-venv
+python3 -m venv venv
 ```
 ### Step 3: Activate your virtual environment
 Do this in your terminal or by using your favorite IDE
