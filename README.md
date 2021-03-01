@@ -6,7 +6,7 @@ The generated file can then be used to evaluate the components using the Nexus P
 * Python3
 * GoLang
 * NXRM3 OSS or PRO
-* Local build of [Sonatype Hashbrowns](sonatype-nexus-community/hashbrowns). \
+* Local build of [Sonatype Hashbrowns](https://github.com/sonatype-nexus-community/hashbrowns). \
   Hashbrowns is a utility for scanning sha1 sums with Sonatype's Nexus IQ Server.
 
 ‼ - Large registries with NX3 might cause an orient error. 
